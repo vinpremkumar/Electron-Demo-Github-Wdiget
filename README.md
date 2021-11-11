@@ -9,6 +9,7 @@ Use the below command for compiling an executable
 ```
 npx electron-packager dir appName --overwrite --asar --electron-version=13.4.0 --platform=win32 --arch=x64 --prune=true --out=release-builds --icon=./build/icon.ico
 ```
+_ref: https://stackoverflow.com/a/69226864/12529099_
 
 # Output:
 
