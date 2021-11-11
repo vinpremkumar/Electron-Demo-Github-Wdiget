@@ -1,3 +1,4 @@
+# Github Widget using Electron
 This project is based off of https://github.com/electron/electron-quick-start
 
 I have modded the script to make the window look more like a widget. 
