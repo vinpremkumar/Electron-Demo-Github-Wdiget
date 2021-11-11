@@ -1,0 +1,24 @@
+{
+  "name": "github-widget",
+  "version": "1.0.0",
+  "description": "A minimal browser widget for github repositories",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "github"
+  ],
+  "author": "Premkumar Vincent",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^15.3.1",
+    "electron-builder": "^22.13.1",
+    "electron-packager": "^15.4.0"
+  }
+}
