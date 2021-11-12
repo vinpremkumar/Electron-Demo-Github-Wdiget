@@ -7,7 +7,7 @@ It displays my github repository currently, but you can easily edit the mainWind
 # How to compile an .exe
 After installing electron-packager (check link: https://www.christianengvall.se/electron-packager-tutorial/), use the below command for compiling an executable
 ```
-electron-packager dir appName --overwrite --asar --electron-version=13.4.0 --platform=win32 --arch=x64 --prune=true --out=release-builds --icon=./build/icon.ico
+electron-packager dir appName --overwrite --asar --platform=win32 --arch=x64 --prune=true --out=release-builds --icon=./build/icon.ico
 ```
 _ref: https://stackoverflow.com/a/69226864/12529099_
 
