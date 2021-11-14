@@ -5,7 +5,13 @@ I have modded the script to make the window look more like a widget.
 It displays my github repository currently, but you can easily edit the mainWindow.loadURL('') command line to show any webpage you wish.
 
 # How to compile an .exe
-After installing electron-packager (check link: https://www.christianengvall.se/electron-packager-tutorial/), use the below command for compiling an executable
+1) Install NodeJS from https://nodejs.org/en/download/
+2) Install Electron using the command
+```
+npm install -g electron
+```
+3) Install electron-packager using npm install -g electron-packager (check link: https://www.christianengvall.se/electron-packager-tutorial/)
+4) After installing electron-packager, use the below command for compiling an executable
 ```
 electron-packager dir appName --overwrite --asar --platform=win32 --arch=x64 --prune=true --out=release-builds --icon=./build/icon.ico
 ```
