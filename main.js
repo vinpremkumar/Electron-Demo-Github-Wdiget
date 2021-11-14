@@ -88,7 +88,7 @@ function createWindow() {
 
   mainWindow.once('ready-to-show', () => {
       mainWindow.webContents.on('did-finish-load', function() {
-		  mainWindow.webContents.setZoomFactor(0.7)
+		  mainWindow.webContents.setZoomFactor(1)
 		  mainWindow.webContents.setVisualZoomLevelLimits(0.5, 1.5)
           mainWindow.show();
       });
